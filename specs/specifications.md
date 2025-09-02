@@ -35,15 +35,20 @@ Fundyze is designed to be **scalable and evolutive**, allowing new features and 
 
 ## 3. Core Features (MVP vs Future Enhancements)
 **Minimum Viable Product (MVP):**
-* Upload company financial statements.
+* User authentication and cloud storage.
+* User preferences for investment strategies and risk tolerance.
+* Upload company financial statements or get data from public APIs.
+* Analyze individual assets
 * Provide simple buy/hold/sell signals based on user preferences.
 * Generate summary reports in plain language.
-* User authentication and cloud storage.
+* Export reports in various formats (PDF, PNG, etc.).
 
 **Future Enhancements:**
 * Sentiment analysis from news and social media.
 * Crypto asset scoring and trend predictions.
 * Portfolio tracking and diversification recommendations.
+* Alerts and notifications for significant market events.
+* Advanced analytics & visualization.
 
 --- 
 
