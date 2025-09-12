@@ -42,12 +42,14 @@ The long-term vision is to become a **trusted digital assistant for investors**,
 * Search bar to look up a specific company.
 * Advanced search filters (by sector, risk profile, ESG factors, etc.).
 * Section with ~10 **trending companies** (updated periodically).
+* Add companies to a favorites list for quick access.
 * Detailed company reports including:
   - Financial data (revenue, profits, debts, valuation ratios, etc.).
   - Hierarchy (CEO, key executives).
   - Products and services offered.
   - Summary of recent trends (news, performance, market moves).
   - AI-generated analysis: strengths, risks, and opportunities.
+* Minimum of 2 languages (English and French).
 
 **Future Enhancements:**
 * **Notifications**: alerts for major news/events about followed companies.
