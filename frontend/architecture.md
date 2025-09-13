@@ -6,54 +6,65 @@
     </p>
 </div>
 
-## 1. Principales Pages
-### 1.1. Home (`/`)
-- **Description**: The home page provides an overview of the Fundyze app
-### 1.2. Dashboard (`/dashboard`)
-- **Description**: Main user interface where users can view their analyses, recent activity, and quick access to features.
-- **UI Layout**: 
-    - Header with Logo, new analysis button, and user profile access.
-    - A last analyzed section displaying recent analyses with filter options (type, date, ...).
-### 1.3. New Analysis (`/new-analysis`)
-- **Description**: Page where users can start a new investment analysis by uploading financial documents or entering asset details.
-- **UI Layout**: 
-    - Step-by-step wizard guiding users through the analysis setup process.
-    - Options to upload documents, select analysis type (company, stock, crypto).
-### 1.4. Analysis Results (`/analysis/:id`)
-- **Description**: Displays the results of a specific analysis, including insights, recommendations, and visualizations.
+## 1. Main Pages
+
+### 1.1. Public Home (`/`)
+- **Description**: Landing page presenting Fundyze’s purpose and main features.
+- **UI Layout**:
+    - Hero section with tagline and call-to-action.
+    - Short explanation of the platform’s value.
+    - Links to About, Contact, and Signup.
+
+### 1.2. User Home (`/home`)
+- **Description**: Main user page after login, focused on discovery and research.
+- **UI Layout**:
+    - **Search bar** at the top to look up a specific company.
+    - **Trending companies section**: ~10 cards with companies selected daily (precomputed).
+    - **Trending cryptocurrencies section**: ~10 cards with cryptocurrencies selected daily (precomputed).
+    - **Favorites section**: User’s favorited companies and cryptocurrencies.
+    - Each card redirects to a detailed company report.
+
+### 1.3. Company Report (`/company/:id`)
+- **Description**: Dedicated page displaying a full analysis of a company.
 - **Features**:
-    - Interactive charts and graphs for data visualization.
-    - Summary of key findings and recommendations.
-    - Option to export results as PDF.
-    - Possibility to share link results with others.
-- **UI Layout**: 
-    - Descriptive header with analysis title, date, sell/buy indicators, and action buttons (export, share).
-    - Main content area with tabs for Overview, Financials, and Recommendations.
+    - Key financial metrics.
+    - Hierarchy and leadership (CEO, execs).
+    - Products & services overview.
+    - Recent trends and analysis summary.
+    - Visual charts and graphs.
+
+### 1.4. Cryptocurrency Report (`/crypto/:id`)
+- **Description**: Dedicated page displaying a full analysis of a cryptocurrency.
+- **Features**:
+    - Key financial metrics.
+    - Market trends and analysis summary.
+    - Visual charts and graphs.
 
 ### 1.5. User Profile (`/profile`)
-- **Description**: Allows users to view and edit their profile information, preferences, and settings.
+- **Description**: User account management.
 - **Features**:
-    - Edit personal information (name, email, password).
-    - Manage language preferences.
-    - Security settings (2FA, passkey management).
-- **UI Layout**: 
-    - Aside navigation for different settings sections (personal info, security).
-    - Main content area displaying the selected settings section.
+    - Edit personal info (name, email, password).
+    - Manage preferences (language, notifications).
+    - Security settings (2FA, passkeys).
+- **UI Layout**:
+    - Aside navigation for sections.
+    - Main content with editable fields.
+
 ### 1.6. Login (`/login`)
-- **Description**: Secure authentication page for existing users.
+- **Description**: Secure login for existing users.
 - **Features**:
-    - Traditional login with email and password.
-    - OAuth login with Google for quick access.
-    - Passkey support for enhanced security.
-- **UI Layout**: Large illustrative image on the left; login form on the right.
+    - Email/password login.
+    - Google OAuth.
+    - Passkey support.
+- **UI Layout**:
+    - Large illustrative image on left.
+    - Login form on right.
 
 ### 1.7. Signup (`/signup`)
-- **Description**: Registration page for new users to create an account.
+- **Description**: Account creation page.
 - **Features**:
-    - Email and password registration.
-    - Option to sign up with Google.
-- **UI Layout**: Large illustrative image on the left; Step-by-step signup form on the right.
-### 1.8. About (`/about`)
-- **Description**: Information about Fundyze, its mission, and team.
-### 1.9. Contact (`/contact`)
-- **Description**: A page with a contact form for users to reach out for support or inquiries.
+    - Email/password registration.
+    - Google signup option.
+- **UI Layout**:
+    - Large illustrative image on left.
+    - Signup form on right.
